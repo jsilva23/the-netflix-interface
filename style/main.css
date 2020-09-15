@@ -11,8 +11,9 @@
 
 /*base elements*/
 body {
-background: var(--black);
-font-family: 'Arial', Times, serif;
+    background: var(--black);
+    font-family: 'Arial', Times, serif;
+    color:white;
 }
 
 header .container {
@@ -92,4 +93,14 @@ header nav a:hover {
 
 .principal-film .container {
     width: 70%;
+}
+
+.box-film {
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+.carousel-films {
+    margin-top: 5px;
 }
